@@ -1,0 +1,26 @@
+some random words/stuff
+
+options similar to items inside lists
+reall yparticular 
+detial oreitned about values
+non text inpout
+
+assign value to options drop down value
+making values lower case lables upper case
+same as the others
+vaue
+value
+creating the drop down stuff
+
+first table data label column
+second one drop down option stuff
+
+own naming structures
+what users see is something else or same thing
+everythign held in select element only select on of the options avaiable
+
+lets look at another type of input, table label row for program of study
+
+occur next to one another include break
+
+name mateches study value changes 

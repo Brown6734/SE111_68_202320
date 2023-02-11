@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The type of font we are using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="Default HTML Page for SE 111">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Week 5 | Tables and Forms</title>
+</head>
+<body>
+    <!--Build your Table and Form here-->
+    <!--
+        you will create a two column table to hold form labels on the left and form inputs on the right.
+        add your name to the author meta tag
+        you will edit the index html page to match the images below
+        each form element and label will have very specific attributes
+
+        notes:
+        the table itself with have one row in the <thead> and the rest of the form will reside in the <tbody>
+        the heading at the top of the page will go outside of the <table>
+        this form will be submitted using the GET method and will have HTML 5 validation. It will not submit until all of the required fields have been entered correctly
+        Once the form is submitted it will redirect you to a confirm.html page. 
+        YOU SHOULD NOT EDIT ANYTHING on the confirm.html page
+
+        NOTE: DO NOT ADD THE REQUIRED ATTRIBUTE TO the drink choices
+    
+        -->
+
+    <table>
+        <thead>
+            <tr>
+                <td>Month</td>
+                <td>Savings</td>
+            </tr>
+
+        </thead><!--/ thead element/block-->
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+                <!--<th></th>
+                this is table with bold text instead of normal text. It is typically used within the <thead> tag/element-->
+            </tr>
+            <tr>
+                <td>Feburary</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table><!--/ table element/block-->
+
+    <!--forms used the <form> tag and all other form elements are nested with the <form> tag(s)-->
+    <!--the <form> tag has two attributes that are used to help send data to a server-->
+    <!--method: the method in which data is sent the server-->
+    <!--action: a link to another page or script that will utilize the data in some way-->
+    <!--forms utilize <input> tags as well as some others to create interactive form elements such as text, boxes, select boxes and buttons-->
+    <form>
+        <label for="fname">First name: </label>
+        <input type = "text" id = "fname" name = "fname">
+
+    </form>
+
+   
+
+    
+</body>
+</html>
