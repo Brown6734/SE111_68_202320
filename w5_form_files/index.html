@@ -31,44 +31,147 @@
     
         -->
 
+    <h1>Placeholder Heading</h1>
+
     <table>
         <thead>
             <tr>
-                <td>Month</td>
-                <td>Savings</td>
+                <td>Placeholder (h2): Labels</td>
+                <td><h2>Form Fields</h2></td>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+
+        </tbody>
+            
+    </table><!--/ table element/block-->
+
+    <form action="confirm.html" method="GET">
+        <table>
+            <tr>
+                <td>
+                    <label for="g-first">Parent/Guardian Name</label><br>
+                </td>
+                <td>
+                    <input type="text" maxlength="20" name="username" id="g-first" placeholder="First Name" required><br>
+                    <input type="text" maxlength="20" name="crfirst" id="g-last" placeholder="Last Name" required>
+                </td>
+                
+                
             </tr>
 
-        </thead><!--/ thead element/block-->
-        <tbody>
             <tr>
-                <td>January</td>
-                <td>$100</td>
-                <!--<th></th>
-                this is table with bold text instead of normal text. It is typically used within the <thead> tag/element-->
+                <td>
+                    <!--Child's First Name
+                    label of "cfirst"-->
+                    <label for="c-first">Child's First Name</label>
+                </td>
+                <td>
+                    <!--type: text; required; name: cfirst; id: c-first;placeholder: Child's First Name-->
+                    <input type="text" name="cfirst" id="c-first" placeholder="Child's First Name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <!--childs age
+                type number; required; name age; value 3-->
+                <td>
+                <label for="cage">Child's Age</label>
+                </td>
+                <td>
+                <input type="number" id="cage" name="age" value="3" required>
+                </td>
+            </tr>
+
+            <tr>
+                <!--Date and time bolded-->
+                <td>
+                    <h2>Date and Time</h2>
+                </td>
+                <td></td>
+                
+            </tr>
+
+            <tr>
+                <!--date-->
+                <!--type date; required; name date-->
+                <td>
+                    <label for="ddate">Date</label>
+                </td>
+                <td>
+                    <input type="date" id="ddate" name="date" required>
+                </td>
             </tr>
             <tr>
-                <td>Feburary</td>
-                <td>$80</td>
+                <!--start time; label of time
+                type time; name time; required-->
+                <td>
+                    <label for="ttime">Start Time</label>
+                </td>
+                <td>
+                    <input type="time" id="ttime" name="time" required>
+                </td>
             </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <td>Sum</td>
-                <td>$180</td>
+                <!--number of guests; label of guests
+                type number; name guests; value 5-->
+                <td>
+                    <label for="nguests">Number of Guests</label>
+                </td>
+                <td>
+                    <input type="number" id="nguests" name="guests" value="5">
+                </td>
             </tr>
-        </tfoot>
-    </table><!--/ table element/block-->
+            <tr>
+                <!--food h2 heading-->
+                <td><h2>Food</h2></td>
+                <td></td>
+            </tr>
+            <tr>
+                <!--size; label of size
+                3 input tags/pieces-->
+                <!--type radio; name size;
+                each option will get a unique value attribute; they will be "sm", "md", and "lg"-->
+                <td>
+                    <label for="ssize">Size</label>
+                </td>
+                <td>
+                    <input type="radio" id="ssize" name="ssize" value="sm">
+                    <label for="ssize">Sm</label>
+                    <input type="radio" name="size2" value="md">
+                    <label for="ssize">Med</label>
+                    <input type="radio" name="size3" value="lg">
+                    <label for="ssize">Lg</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <!--drinks (NO REQUIRED ATTRIBUTE)-->
+                <!--label of drinks-->
+                <!--coke label
+                type checkbox; name drink1; checked true; value coke;-->
+                <td>
+                    <label for="drink1">Coke</label>
+                    <input type="checkbox" name="drink1" checked="true" value="coke">
+                    <label for="drink2">Sprite</label>
+                    <input type="checkbox" name="drink2" value="sprite">
+                    <label for="drink3">Fruit Punch</label>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    
 
     <!--forms used the <form> tag and all other form elements are nested with the <form> tag(s)-->
     <!--the <form> tag has two attributes that are used to help send data to a server-->
     <!--method: the method in which data is sent the server-->
     <!--action: a link to another page or script that will utilize the data in some way-->
     <!--forms utilize <input> tags as well as some others to create interactive form elements such as text, boxes, select boxes and buttons-->
-    <form>
-        <label for="fname">First name: </label>
-        <input type = "text" id = "fname" name = "fname">
-
-    </form>
+    <p></p>
+   
 
    
 
